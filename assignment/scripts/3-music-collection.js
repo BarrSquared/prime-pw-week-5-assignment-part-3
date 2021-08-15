@@ -23,7 +23,7 @@ addToCollection ('testTitle6', 'testArtist6', 'testYearPub6');
 console.log(collection);
 
 //test of showCollection
-console.log('Test of collection array and applied functions');
+console.log('Test of collection array and applied functions. Should provide number of items in array and list each album info on a new line.');
 //create function showCollection, take in an array, log number of items in array, loop over array and console.log info, T/A/YP
 function showCollection (inputArray) {
   console.log('The number of items in this array is: ' + inputArray.length);
