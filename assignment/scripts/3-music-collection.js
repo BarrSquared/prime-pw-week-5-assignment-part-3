@@ -55,3 +55,17 @@ function findByArtist (artist) {
 //test for findByArtist
 console.log('Test of findByArtist function. Should list 3 albums by testArtist1.')
 findByArtist('testArtist1');
+
+//search function, take input for search criteria objects, return array w/items
+function search (criteria) {
+  //edge no search object or empty search object as input
+  if(criteria === undefined){
+    return collection;
+  }
+  if(typeof(collection) !== object){
+    return collection;
+  }
+  let critMatch = [];
+
+
+}
